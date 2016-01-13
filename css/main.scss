@@ -1,0 +1,26 @@
+
+$primary_color: #fff;
+$primary_display: inline;
+
+
+
+
+#header {
+
+	height: 880px;
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	.logo,
+	nav ul li {
+		display: $primary_display;
+	}
+
+	nav {
+		float: right;
+		margin: 2% 0;
+	}
+
+
+}

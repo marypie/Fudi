@@ -1,0 +1,595 @@
+body, #wrapper {
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+}
+
+.content {
+	margin: 0 auto;
+	width: 80%;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+a { 
+	text-decoration: none;
+	color: #000;
+}
+
+/******************
+ HEADER 
+******************/ 
+
+#header {
+	height: 880px;
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logo {
+	display: inline;
+}
+
+nav {
+	float: right;
+	margin: 2% 0;
+}
+
+nav ul li {
+	display: inline;
+	color: #fff;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0 12px;
+}
+
+.main {
+	text-align: center;
+	color: #fff;
+	margin: 20% 0;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 300;
+	font-style: italic;
+	color: rgba(255, 255, 255, .6);
+	margin: 0;
+}
+
+h2 {
+	font-size: 8.3em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0;
+}
+
+button {
+	background: transparent;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: #fff;
+	width: 270px;
+	height: 60px;
+	box-shadow: none;
+	border: 3px solid #fff;
+	margin: 2%;
+}
+
+h3 , .special {
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.special {
+	text-decoration: underline;
+}
+
+
+/******************
+ GET SOMETHING 
+******************/
+
+#getSomething {
+	height: 350px;
+}
+
+.get {
+	margin: 10% 0;
+}
+
+
+.get li {
+	width: 30%;
+	float: left;
+	text-align: center;
+	margin: 1%;
+}
+
+h4 {
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-weight: 700;
+	margin: 2% 0 0 0;
+}
+
+p {
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.5em;
+}
+
+
+/******************
+ APP 
+******************/
+
+#app {
+	background-color: #f7f7f7;
+	margin: 0;
+}
+
+.iphoneImg {
+	line-height: 0;
+	float: left;
+	margin-top: 8%;
+	margin-right: 8%;
+}
+
+.appExplain {
+	padding-top: 15%;
+}
+
+.appstore img {
+	margin-top: 1%;
+	margin-right: 1%;
+}
+
+/******************
+ REVIEW 
+******************/
+
+#review {
+	background-image: url('../img/bgreview.png');
+	height: 495px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.manReview {
+	padding-top: 5%;
+}
+
+
+.interview {
+	color: rgba(255, 255, 255, .4);
+	font-size: 2em;
+	font-weight: 300;
+}
+
+h5 {
+	color: rgba(255, 255, 255, .4);
+	font-weight: 300;
+	font-size: .8em;
+}
+
+.dot {
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+}
+
+.dot li {
+	width: 10px;
+	display: inline;
+	margin: 1%;
+}
+
+
+
+/******************
+ CUISINES 
+******************/
+
+
+.cuisinesTitle {
+	margin: 0 auto;
+	width: 20%;
+	text-align: center;
+	padding: 5% 0 3% 0;
+}
+
+.foodPicture {
+	width: 100%;
+}
+
+.foodPicture li {
+	width: 20%;
+	margin: 0;
+	display: inline;
+	float: left;
+}
+
+
+#gallery {
+	margin: 0;
+	padding: 0;
+}
+
+#gallery li {
+	width: 20%;
+	height: auto;
+	float: left;
+	text-align: center;
+    color: #fff ;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+ }
+
+#gallery li img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.galleryText {
+	width: 100%;
+	text-align: center;
+	top: 8%;
+	position: absolute;
+}
+
+.numRecipes {
+	display: block;
+	font-weight: 300;
+	font-style: italic;
+	color: rgba(255, 255, 255, .6);
+	font-size: 1em;
+	padding: 18% 0 0 0;
+	line-height: 1em;
+}
+
+h6 {
+	font-weight: 700;
+	font-size: 2em;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 1em;
+}
+
+.numbers {
+	margin: 5% 0;
+}
+
+.numbers ul {
+	display: inline;
+	padding: 0;
+}
+
+.numbers ul li {
+	width: 19%;
+	text-align: center;
+	display: inline-block;
+}
+
+.num {
+	font-size: 1em;
+	font-weight: 300;
+}
+
+/******************
+ FOOTER 
+******************/
+
+footer {
+	border-top: 1px solid #e2e2e2;
+	background-color: #f7f7f7;
+	height: 90px;
+}
+
+.copyright {
+	color: #c1c1c1;
+	margin: 3% 0;
+	font-size: 1em;
+	font-weight: 300;
+	margin: 3% 0; 
+	float: left;
+}
+
+.linkFoot {
+	float: right;
+	margin: 3% 0;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************
+----------MEDIA QUERY-----------
+********************************/
+
+
+
+@media only screen and (min-width : 320px) and (max-width : 630px) {
+    body { 
+    	font-size: 60%;
+    }
+
+    #header {
+    	height: auto;
+    	font-size: 85%;
+    }
+
+    #logo img {
+    	width: 35%;
+    }
+
+    #header nav {
+    	font-size: 145%;
+    	margin: 10% 0;
+    }
+
+    #header nav li {
+    	margin :0 6px;
+    }
+
+    .main {
+    	padding: 20% 0;
+    }
+
+    .main h3 {
+    	font-size: 130%;
+    }
+
+    #getSomething {
+    	height: auto;
+    }
+
+    .get {
+    	margin: 8% 0;
+    }
+
+    .get li {
+    	font-size: 140%;
+    	float: none;
+    	width: 100%;
+    	margin: 8% 0;
+    	
+    }
+
+    .get li img {
+    	width: 30%;
+    }
+
+    #app {
+    	text-align: center;
+    	height: auto;
+    }
+
+    .iphoneImg {
+    	margin: 0 auto;
+    	padding: 7% 0;
+    }
+
+   .iphoneImg img{
+       	width: 90%;
+    }
+
+    .appExplain {
+    	font-size: 140%;
+    }
+
+    .appstore {
+    	padding: 5% 0;
+    }
+
+    #review {
+    	height: auto;
+    }
+
+    .manReview {
+    	padding: 20% 0;
+    }
+
+    .manReview h5 {
+    	font-size: 130%;
+    }
+
+    .dot li {
+    	margin: 5%;
+    }
+
+    .cuisinesTitle {
+    	font-size: 130%;
+    	width: 100%;
+    	padding: 4% 0 8% 0;
+    }
+
+    #gallery li {
+    	width: 50%;
+    	font-size: 130%;
+    }
+
+
+    .numbers ul li {
+    	text-align: center;
+    	width: 100%;
+    	display: block;
+    	font-size: 130%;
+    	margin: 5% 0;
+    	
+    }
+
+    footer {
+    	height: auto;
+    	font-size: 95%;
+    }
+
+    .copyright {
+    	margin: 0;
+    	padding: 8% 0;
+    }
+
+    .linkFoot {
+    	margin: 0;
+    	padding: 8% 0;
+    }
+}
+
+
+
+@media only screen and (min-width : 631px) and (max-width : 1024px) {
+
+		body {
+			font-size: 80%;
+		}
+
+		#header {
+			height: auto;
+		}
+
+		.main {
+			padding: 20% 0;
+			margin: 0;
+		}
+
+		.get li {
+			margin: 1.6%;
+			font-size: 110%;
+		}
+
+		.appExplain {
+			font-size: 120%;
+			padding: 0;
+		}
+
+		.appstore {
+			padding: 5% 0;
+		}
+
+		#app {
+    		text-align: center;
+    		height: auto;
+    }
+
+    	.iphoneImg {
+    		text-align: center;
+    		margin: 0 auto;
+    		padding-top: 7%;
+    		float: none;
+    }
+
+   		.iphoneImg img{
+       		width: 70%;
+    }
+
+    	.manReview h5 {
+    		font-size: 110%;
+    	}
+
+    	.cuisinesTitle {
+    		font-size: 130%;
+    		width: 100%;
+    		margin: 5% 0;
+    		padding: 0;
+    	}
+
+    	#gallery li {
+    		width: 50%;
+    		font-size: 130%;
+    	}
+
+    	.numbers {
+    		font-size: 90%;
+    	}
+
+    	footer {
+    		height: auto;
+    	}
+
+    	.copyright, .linkFoot {
+    		margin: 0;
+    		padding: 5% 0;
+    	}
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1024px) {
+	#app {
+		padding-top: 8%;
+	}
+
+	.iphoneImg {
+		width: 50%;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+	}
+
+	.iphoneImg img {
+		width: 95%;
+	}
+
+	.appExplain {
+		font-size: 115%;
+		padding: 0;
+		text-align: left;
+	}
+
+	.appExplain h4 {
+		margin: 0;
+	}
+
+	.appstore {
+		padding: 2% 0;
+		margin: 0;
+	}
+
+	.cuisinesTitle {
+		font-size: 120%;
+	}
+
+	#gallery li {
+		width: 20%;
+		font-size: 95%;
+	}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+	.iphoneImg {
+		margin-right: 4%;
+	}
+}
+
+
